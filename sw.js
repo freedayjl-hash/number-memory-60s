@@ -1,11 +1,16 @@
-const CACHE_NAME = 'nm60s-v4';
+const CACHE_NAME = 'nm60s-v5';
 const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './icons/icon-192-v4.png',
-  './icons/icon-512-v4.png',
-  './icons/apple-touch-icon-v4.png'
+  './apple-touch-icon.png',
+  './icons/icon-192-v5.png',
+  './icons/icon-512-v5.png',
+  './icons/icon-512-maskable-v5.png',
+  './icons/apple-touch-icon-180-v5.png',
+  './icons/apple-touch-icon-167-v5.png',
+  './icons/apple-touch-icon-152-v5.png',
+  './icons/apple-touch-icon-120-v5.png'
 ];
 
 self.addEventListener('install', (e) => {
